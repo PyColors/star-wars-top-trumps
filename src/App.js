@@ -124,9 +124,6 @@ class App extends Component {
     return (
       <section className="App">
         <Navbar brand="Star Wars Top Trumps" right>
-          <NavItem onClick={() => this.getReplay()}>
-            <Icon>refresh</Icon>
-          </NavItem>
         </Navbar>
  
         {isLoading ? (
